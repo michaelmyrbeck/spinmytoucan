@@ -1,9 +1,10 @@
 import './App.css';
+import Header from './components/header/Header'
 
 function App() {
   return (
     <div className="App">
-      <header>Mike's Tucan Wonderland</header>
+      <Header />
       <main>
         <img src="https://pgcpsmess.files.wordpress.com/2014/07/image62.jpg" className="App-logo" alt="logo" />
       </main>
